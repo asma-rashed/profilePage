@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.nav{
+    background-color: black;
+    color: white;
+}
+.nav1{
+    margin: 0px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+}
+.nav-links{
+    width: 50%; /* الجستيفاي كان مايزبط بس بعد ماحطيت السطر هذا زبط*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    /* padding: 0px 10px; */
+    color: rgb(187, 192, 196);
+}
+
+.btn{
+    background-color: rgb(73, 151, 206);
+    border: 3px solid black;
+    padding: 3px;
+}
+.main{
+    margin: 0px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.blue{
+    background-color:darkcyan;
+    height:100px;
+    width: 100%;
+}
+.user{
+    margin: 20px 5px;
+    border: 1px solid black;
+    /* width: 80%; نعدل هنا ضروري */
+}
+#user{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top:-90px;
+    margin-bottom: -90px;
+}
+#map{
+    height: 17px;
+    width: 10px;
+}
+#gear{
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+
+}
+.edit{
+    display: flex;
+    align-items: center;
+}
+.white{
+    top: -70px;
+    margin: 20px;
+}
+.head{
+    background-color: rgb(28, 28, 28);
+    color: white;
+    padding: 5px;
+}
+.edu{
+    margin: 20px 5px;
+    border: 1px solid black;
+    /* width: 80%; */
+    
+}
+.toddandphil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accept{
+    height: 30px;
+    width: 30px;
+}
+.req , .your{
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+.view{
+    border: 1px solid black;
+}
+.body{
+    padding: 5px;
+}
+span{
+    background-color: grey;
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    color: black;
+}
+.view{
+    padding: 5px;
+}
